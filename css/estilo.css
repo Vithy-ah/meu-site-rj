@@ -1,0 +1,167 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+     background-color: rgb(255, 255, 255);
+    font: 1.1em "Lato", sans-serif;
+}
+
+
+/*TODA PARTE DO MENU*/
+
+header{
+    background-color: #1E90FF;
+    position: sticky;
+    height: 100px;
+    top: 0;
+    padding: 5px 10px 15px 15px;
+    z-index: 2;
+}
+
+#logo img{
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px;
+}
+
+nav{
+    margin-top: 35px;
+    float: right;
+    margin-right: 80px;
+    
+}
+
+nav a{
+    margin: 80px 20px 20px ; 
+    text-decoration: none;
+    color: rgb(255, 248, 237);
+    font-size: 26px;
+}
+
+a{
+  color: rgb(0, 0, 0); text-shadow: black 0.2em 0.1em 0.5em
+}
+
+a{
+ 	position: relative; 
+ } 
+
+ a:before {
+  content: "";
+   position: absolute; 
+   width: 99%; 
+   height: 3px; 
+   bottom: 0; 
+   left: 0;
+   background: rgba(255, 255, 255, 0.609);
+   visibility: show; 
+   -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.4s ease-in-out 0s; 
+    transition: all 0.4s ease-in-out 0s; 
+
+ } 
+
+ a:hover:before {
+  visibility: visible; 
+  -webkit-transform: scaleX(1);
+   transform: scaleX(1); 
+}
+
+
+#logo{
+    margin-top: 10px;
+    float:left;
+}
+
+#logo2{
+    text-align: center;
+    box-shadow: 2px 5px 10px;
+    margin-top: 10px;
+}
+
+/*atalho para ir no site do RJ*/
+
+.site{
+    padding-left: 200px;
+    margin-top: 20px;
+}
+
+/*CORPO DO SITE*/
+
+main{
+    margin: 0px auto;
+    width: 1000px;
+}
+/*TODO CSS DO INDEX*/
+
+.mapateste{
+    float: right;
+    width: 500px;
+    margin-top: 100px;
+}
+
+p{
+    text-align: justify;
+}
+
+.texto{
+    float: left;
+    width: 400px;
+}
+
+iframe{
+    padding-left: 30px;
+}
+
+
+li{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    list-style-type: square;
+    
+} 
+
+footer{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #1E90FF;
+    color: white;
+    clear: both;
+}
+
+
+
+
+
+.comida{
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.comida:hover{
+    transform: scale(1.1);
+    transition: all 5.0 ease-in-out 5.0s;  
+}
+
+.praia{
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px; 
+    margin-bottom: 20px;  
+}
+.praia:hover {
+    transform: scale(1.1);
+    transition: all 3.0 ease-in-out 2.0s;
+}
+
+.foto {
+    text-align: center;
+}
+
+
+.texto2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
